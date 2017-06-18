@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mWeather</string>
+    <string name="open_drawer">OPEN</string>
+    <string name="close_drawer">CLOSE</string>
+</resources>

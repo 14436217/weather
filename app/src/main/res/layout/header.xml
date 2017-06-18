@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< 75c7f430b7ff9055543a38b9c135461ec362a663
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout xmlns:android="http://scchemas.android.com/apk/res/android"
+>>>>>>> 省市名称完善，地级市定位完善
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#50ffffff"
+    android:paddingTop="20dp"
+    android:gravity="center">
+   <ImageView
+       android:layout_width="140dp"
+       android:layout_height="80dp"
+       android:src="@drawable/logo"/>
+   <TextView
+       android:textAlignment="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="mWeather"/>
+</LinearLayout>

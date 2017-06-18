@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< 75c7f430b7ff9055543a38b9c135461ec362a663
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+=======
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://scchemas.android.com/apk/res/android"
+    xmlns:app="http://scchemas.android.com/apk/res-auto"
+>>>>>>> 省市名称完善，地级市定位完善
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="#BFEFFF">
+            <TextView
+<<<<<<< 75c7f430b7ff9055543a38b9c135461ec362a663
+                android:id="@+id/tv_position"
+=======
+                android:id="@+id/text_position"
+>>>>>>> 省市名称完善，地级市定位完善
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="-90dp"/>
+            <ImageView
+<<<<<<< 75c7f430b7ff9055543a38b9c135461ec362a663
+                android:id="@+id/iv_delete"
+=======
+                android:id="@+id/image_delete"
+>>>>>>> 省市名称完善，地级市定位完善
+                android:layout_gravity="end"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:src="@android:drawable/ic_menu_delete"/>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/context"/>
+    <android.support.design.widget.FloatingActionButton
+<<<<<<< 75c7f430b7ff9055543a38b9c135461ec362a663
+        android:id="@+id/float_btn"
+=======
+        android:id="@+id/feltoat_btn"
+>>>>>>> 省市名称完善，地级市定位完善
+        android:backgroundTint="@android:color/transparent"
+        app:elevation="0dp"
+        app:borderWidth="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add"
+        android:layout_gravity="bottom|end"/>
+
+</android.support.design.widget.CoordinatorLayout>

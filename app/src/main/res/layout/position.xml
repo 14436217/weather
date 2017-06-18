@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< 75c7f430b7ff9055543a38b9c135461ec362a663
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout xmlns:android="http://scchemas.android.com/apk/res/android"
+>>>>>>> 省市名称完善，地级市定位完善
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808DEEEE">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tl_bar"
+        android:layout_width="match_parent"
+        android:background="#8DEEEE"
+        android:layout_height="40dp">
+        <ImageView
+<<<<<<< 75c7f430b7ff9055543a38b9c135461ec362a663
+            android:id="@+id/iv_btn"
+=======
+            android:id="@+id/imagev_button"
+>>>>>>> 省市名称完善，地级市定位完善
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/back"/>
+        <TextView
+<<<<<<< 75c7f430b7ff9055543a38b9c135461ec362a663
+            android:id="@+id/tv_title"
+=======
+            android:id="@+id/textv_tit"
+>>>>>>> 省市名称完善，地级市定位完善
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择位置"/>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ListView
+<<<<<<< 75c7f430b7ff9055543a38b9c135461ec362a663
+        android:id="@+id/lv_province"
+=======
+        android:id="@+id/listv_pro"
+>>>>>>> 省市名称完善，地级市定位完善
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+    </ListView>
+    <ListView
+<<<<<<< 75c7f430b7ff9055543a38b9c135461ec362a663
+        android:id="@+id/lv_city"
+=======
+        android:id="@+id/listv_city"
+>>>>>>> 省市名称完善，地级市定位完善
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+    </ListView>
+    <ListView
+<<<<<<< 75c7f430b7ff9055543a38b9c135461ec362a663
+        android:id="@+id/lv_position"
+=======
+        android:id="@+id/listv_pos"
+>>>>>>> 省市名称完善，地级市定位完善
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+    </ListView>
+    </LinearLayout>
+</LinearLayout>
